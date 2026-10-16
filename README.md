@@ -7,11 +7,32 @@
 | Skill | 它能干什么 | 适合什么时候用 |
 |-------|------------|----------------|
 | [私董会（advisory-board）](skills/advisory-board/) | 请 12 位顶级思想家从不同角度帮你拆问题 | 面临重大商业决策，需要多视角碰撞 |
+| [商业数据分析助理（business-data-analysis）](skills/business-data-analysis/) | 分析自己的小红书笔记、订单等 JSON/CSV 经营数据 | 做内容复盘、订单分析，找出下一步行动 |
 | [Social-SBTI（social-sbti）](skills/social-sbti/) | 根据公开社交动态生成娱乐向人格画像卡 | 给自己或公开公众人物做娱乐向人格画像 |
 | [视频逐字稿（video-transcript）](skills/video-transcript/) | 把 B 站/抖音/小红书/YouTube 视频转成可搜索、可引用的逐字稿 | 做笔记、做素材、做总结 |
 | [BOSS 求职助手（boss-zhipin-scraper）](skills/boss-zhipin-scraper/) | 校准真实 JD，按确认的数量和档位持续筛选并触达岗位 | 在 BOSS 直聘搜索、分析和联系适合自己的岗位 |
 
 点击 Skill 名称可以看完整说明。新手只需要看下面这段安装命令。
+
+## Codex 课堂推荐
+
+### 圆桌私董会
+
+在 Codex 中发送：
+
+```text
+请使用 skill-installer 安装这个 Skill：https://github.com/symmetry-sym/huangshu/tree/main/skills/advisory-board
+```
+
+### 商业数据分析助理
+
+在 Codex 中发送：
+
+```text
+请使用 skill-installer 安装这个 Skill：https://github.com/symmetry-sym/huangshu/tree/main/skills/business-data-analysis
+```
+
+安装完成后，在下一轮消息中调用相应 Skill。若同名 Skill 已存在，先查看现有版本，再决定是否更新。
 
 ## 小白安装
 
@@ -76,3 +97,4 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 ## 许可
 
 MIT License
+

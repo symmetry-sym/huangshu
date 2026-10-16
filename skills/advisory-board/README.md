@@ -1,4 +1,27 @@
-# 私董会（Advisory Board）
+> Codex 课堂版：本目录同步自用户本机的 `advisory-board`，包含 Codex 显示元数据。上游来源为 [Backtthefuture/huangshu](https://github.com/Backtthefuture/huangshu)，来源说明见 [NOTICE.md](NOTICE.md)。
+
+## 在 Codex 中安装和使用
+
+把下面一句发送给 Codex：
+
+```text
+请使用 skill-installer 安装这个 Skill：https://github.com/symmetry-sym/huangshu/tree/main/skills/advisory-board
+```
+
+安装后，在下一轮消息中发送：
+
+```text
+使用 $advisory-board，围绕我提供的真实业务议题开一次圆桌私董会。
+先读取我的老板说明书和指定材料，再补问影响判断的关键信息。
+区分已知事实、假设与建议，给出共识、分歧、主要风险和优先行动。
+涉及花钱、对外承诺或关键业务决定时，由我最后拍板。
+```
+
+Skill 中出现的奥德赛、知识库路径和议题示例用于说明用法，不代表安装者的个人事实。实际读取和保存位置以使用者指定的当前项目为准；不存在的个人档案可跳过，不要求建立示例目录。
+
+---
+
+# 圆桌私董会（Advisory Board）
 
 > 把南添、Steve Jobs、毛泽东、Trump、张一鸣、Paul Graham、Taleb、Naval、Feynman、Munger、Elon Musk、Buffett 请到同一张桌子上，帮你把问题想透。
 
